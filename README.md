@@ -12,14 +12,14 @@ scDBic is a R+Python package for single-cell RNA sequencing (scRNA-seq) bicluste
 
 ## 📦 Requirements
 
-python==3.8.19
-tensorflow==2.4.4
-keras==2.4.3
-igraph==0.11.6
-numpy==1.19.5
-scanpy==1.8.2
-scikit-learn==1.3.2
-scipy==1.10.1
+- python==3.8.19
+- tensorflow==2.4.4
+- keras==2.4.3
+- igraph==0.11.6
+- numpy==1.19.5
+- scanpy==1.8.2
+- scikit-learn==1.3.2
+- scipy==1.10.1
 
 
 
