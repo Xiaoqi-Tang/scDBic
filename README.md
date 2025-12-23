@@ -34,7 +34,7 @@ Software
 ## ⚙️ Installation
 scDBic requires both R and Python environments. We use the R package reticulate to bridge them.
 
-# Step 1: Set up Python Environment
+## Step 1: Set up Python Environment
 We recommend using Conda to manage the Python environment:
 
 conda create -n your_env python=3.10
@@ -42,7 +42,7 @@ conda activate your_env
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118 # Example for CUDA 11.8 (Please visit pytorch.org for the command specific to your CUDA version)
 pip install numpy pandas
 
-# Step 2: Install R Dependencies
+## Step 2: Install R Dependencies
 Open R and run the following commands:
 
 if (!require("BiocManager", quietly = TRUE))
