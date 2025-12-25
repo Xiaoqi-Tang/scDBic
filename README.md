@@ -50,3 +50,19 @@ if (!require("BiocManager", quietly = TRUE))
 
 BiocManager::install(c("SingleCellExperiment", "scater", "scran", "BiocParallel", "Matrix", "rhdf5"))
 install.packages(c("dplyr", "reticulate", "igraph"))
+
+### Step 3: Run scDBic 
+#### 1. Configuration 
+Before running the script, please open `scDBic.R` and update the following paths in the **User Configuration** section to match your local environment:
+
+* **Conda Path**: Update the `conda` argument in `use_condaenv()` to point to your local conda executable (e.g., inside your anaconda/miniconda folder).
+* **Input Data**: Set `input_file` to the path of your scRNA-seq expression matrix (CSV format).
+* **Output Directory**: Set `output_dir` to where you want to save the results.
+
+#### 2. Run the Script
+You can run the analysis from the command line:
+Rscript scDBic.R
+
+#### 3. (Optional) Run with Demo Data
+We provide a small demo dataset (demo_data.csv) in this repository to verify the installation and demonstrate the workflow.
+
