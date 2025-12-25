@@ -64,5 +64,5 @@ You can run the analysis from the command line:
 Rscript scDBic.R
 
 #### 3. (Optional) Run with Demo Data
-We provide a small demo dataset (demo_data.csv) in this repository to verify the installation and demonstrate the workflow.
+We provide a small demo dataset (demo_dataset.csv) in this repository to verify the installation and demonstrate the workflow.
 
